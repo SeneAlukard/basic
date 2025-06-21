@@ -5,8 +5,8 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-# RF24 submodule'ünü ekle (external/RF24 altında)
-add_subdirectory(external/RF24)
+# rf24 submodule'ünü ekle (external/rf24 altında)
+add_subdirectory(external/rf24)
 
 # Tek executable: drone, kaynaklara mpu6050.cpp de ekleniyor
 add_executable(drone
@@ -14,13 +14,25 @@ add_executable(drone
     src/mpu6050.cpp
 )
 
-# Başlık dizinleri: proje include/ ve RF24 include/
-target_include_directories(drone PRIVATE
-    ${CMAKE_SOURCE_DIR}/include
-    ${CMAKE_SOURCE_DIR}/external/RF24
+add_executable(gbs
+    src/gbs.cpp
 )
 
-# RF24 kütüphanesini linkle
+# Başlık dizinleri: proje include/ ve rf24 include/
+target_include_directories(drone PRIVATE
+    ${CMAKE_SOURCE_DIR}/include
+    ${CMAKE_SOURCE_DIR}/external/rf24
+)
+
+target_include_directories(gbs PRIVATE
+  $(CMAKE_SOURCE_DIR)/include
+  $(CMAKE_SOURCE_DIR)/external/rf24
+)
+target_link_libraries(gbs PRIVATE
+  rf24
+)
+
+# rf24 kütüphanesini linkle
 target_link_libraries(drone PRIVATE
     rf24
 )

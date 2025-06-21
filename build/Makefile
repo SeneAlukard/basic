@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xkea/repos/coding/cpp/project/rf24drone
+CMAKE_SOURCE_DIR = /home/xkea/repos/coding/cpp/project/rfdrone
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xkea/repos/coding/cpp/project/rf24drone/build
+CMAKE_BINARY_DIR = /home/xkea/repos/coding/cpp/project/rfdrone/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/xkea/repos/coding/cpp/project/rf24drone/build/CPackSourceConfig.cmake
+	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/xkea/repos/coding/cpp/project/rfdrone/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -152,9 +152,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xkea/repos/coding/cpp/project/rf24drone/build/CMakeFiles /home/xkea/repos/coding/cpp/project/rf24drone/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xkea/repos/coding/cpp/project/rfdrone/build/CMakeFiles /home/xkea/repos/coding/cpp/project/rfdrone/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xkea/repos/coding/cpp/project/rf24drone/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xkea/repos/coding/cpp/project/rfdrone/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -195,6 +195,19 @@ drone/fast:
 .PHONY : drone/fast
 
 #=============================================================================
+# Target rules for targets named gbs
+
+# Build rule for target.
+gbs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gbs
+.PHONY : gbs
+
+# fast build rule for target.
+gbs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gbs.dir/build.make CMakeFiles/gbs.dir/build
+.PHONY : gbs/fast
+
+#=============================================================================
 # Target rules for targets named run
 
 # Build rule for target.
@@ -217,7 +230,7 @@ rf24: cmake_check_build_system
 
 # fast build rule for target.
 rf24/fast:
-	$(MAKE) $(MAKESILENT) -f external/RF24/CMakeFiles/rf24.dir/build.make external/RF24/CMakeFiles/rf24.dir/build
+	$(MAKE) $(MAKESILENT) -f external/rf24/CMakeFiles/rf24.dir/build.make external/rf24/CMakeFiles/rf24.dir/build
 .PHONY : rf24/fast
 
 src/drone.o: src/drone.cpp.o
@@ -243,6 +256,30 @@ src/drone.s: src/drone.cpp.s
 src/drone.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone.dir/build.make CMakeFiles/drone.dir/src/drone.cpp.s
 .PHONY : src/drone.cpp.s
+
+src/gbs.o: src/gbs.cpp.o
+.PHONY : src/gbs.o
+
+# target to build an object file
+src/gbs.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gbs.dir/build.make CMakeFiles/gbs.dir/src/gbs.cpp.o
+.PHONY : src/gbs.cpp.o
+
+src/gbs.i: src/gbs.cpp.i
+.PHONY : src/gbs.i
+
+# target to preprocess a source file
+src/gbs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gbs.dir/build.make CMakeFiles/gbs.dir/src/gbs.cpp.i
+.PHONY : src/gbs.cpp.i
+
+src/gbs.s: src/gbs.cpp.s
+.PHONY : src/gbs.s
+
+# target to generate assembly for a file
+src/gbs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gbs.dir/build.make CMakeFiles/gbs.dir/src/gbs.cpp.s
+.PHONY : src/gbs.cpp.s
 
 src/mpu6050.o: src/mpu6050.cpp.o
 .PHONY : src/mpu6050.o
@@ -284,10 +321,14 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... run"
 	@echo "... drone"
+	@echo "... gbs"
 	@echo "... rf24"
 	@echo "... src/drone.o"
 	@echo "... src/drone.i"
 	@echo "... src/drone.s"
+	@echo "... src/gbs.o"
+	@echo "... src/gbs.i"
+	@echo "... src/gbs.s"
 	@echo "... src/mpu6050.o"
 	@echo "... src/mpu6050.i"
 	@echo "... src/mpu6050.s"

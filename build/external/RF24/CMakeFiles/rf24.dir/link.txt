@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/rf24.dir/link.d -shared -Wl,-soname,librf24.so.1 -o librf24.so.1.5.0 CMakeFiles/rf24.dir/RF24.cpp.o CMakeFiles/rf24.dir/utility/SPIDEV/gpio.cpp.o CMakeFiles/rf24.dir/utility/SPIDEV/spi.cpp.o CMakeFiles/rf24.dir/utility/SPIDEV/compatibility.cpp.o CMakeFiles/rf24.dir/utility/SPIDEV/interrupt.cpp.o

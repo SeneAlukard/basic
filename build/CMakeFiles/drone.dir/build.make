@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xkea/repos/coding/cpp/project/rf24drone
+CMAKE_SOURCE_DIR = /home/xkea/repos/coding/cpp/project/rfdrone
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xkea/repos/coding/cpp/project/rf24drone/build
+CMAKE_BINARY_DIR = /home/xkea/repos/coding/cpp/project/rfdrone/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/drone.dir/depend.make
@@ -73,32 +73,32 @@ CMakeFiles/drone.dir/codegen:
 .PHONY : CMakeFiles/drone.dir/codegen
 
 CMakeFiles/drone.dir/src/drone.cpp.o: CMakeFiles/drone.dir/flags.make
-CMakeFiles/drone.dir/src/drone.cpp.o: /home/xkea/repos/coding/cpp/project/rf24drone/src/drone.cpp
+CMakeFiles/drone.dir/src/drone.cpp.o: /home/xkea/repos/coding/cpp/project/rfdrone/src/drone.cpp
 CMakeFiles/drone.dir/src/drone.cpp.o: CMakeFiles/drone.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/xkea/repos/coding/cpp/project/rf24drone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/drone.dir/src/drone.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/drone.dir/src/drone.cpp.o -MF CMakeFiles/drone.dir/src/drone.cpp.o.d -o CMakeFiles/drone.dir/src/drone.cpp.o -c /home/xkea/repos/coding/cpp/project/rf24drone/src/drone.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/xkea/repos/coding/cpp/project/rfdrone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/drone.dir/src/drone.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/drone.dir/src/drone.cpp.o -MF CMakeFiles/drone.dir/src/drone.cpp.o.d -o CMakeFiles/drone.dir/src/drone.cpp.o -c /home/xkea/repos/coding/cpp/project/rfdrone/src/drone.cpp
 
 CMakeFiles/drone.dir/src/drone.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/drone.dir/src/drone.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xkea/repos/coding/cpp/project/rf24drone/src/drone.cpp > CMakeFiles/drone.dir/src/drone.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xkea/repos/coding/cpp/project/rfdrone/src/drone.cpp > CMakeFiles/drone.dir/src/drone.cpp.i
 
 CMakeFiles/drone.dir/src/drone.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/drone.dir/src/drone.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xkea/repos/coding/cpp/project/rf24drone/src/drone.cpp -o CMakeFiles/drone.dir/src/drone.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xkea/repos/coding/cpp/project/rfdrone/src/drone.cpp -o CMakeFiles/drone.dir/src/drone.cpp.s
 
 CMakeFiles/drone.dir/src/mpu6050.cpp.o: CMakeFiles/drone.dir/flags.make
-CMakeFiles/drone.dir/src/mpu6050.cpp.o: /home/xkea/repos/coding/cpp/project/rf24drone/src/mpu6050.cpp
+CMakeFiles/drone.dir/src/mpu6050.cpp.o: /home/xkea/repos/coding/cpp/project/rfdrone/src/mpu6050.cpp
 CMakeFiles/drone.dir/src/mpu6050.cpp.o: CMakeFiles/drone.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/xkea/repos/coding/cpp/project/rf24drone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/drone.dir/src/mpu6050.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/drone.dir/src/mpu6050.cpp.o -MF CMakeFiles/drone.dir/src/mpu6050.cpp.o.d -o CMakeFiles/drone.dir/src/mpu6050.cpp.o -c /home/xkea/repos/coding/cpp/project/rf24drone/src/mpu6050.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/xkea/repos/coding/cpp/project/rfdrone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/drone.dir/src/mpu6050.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/drone.dir/src/mpu6050.cpp.o -MF CMakeFiles/drone.dir/src/mpu6050.cpp.o.d -o CMakeFiles/drone.dir/src/mpu6050.cpp.o -c /home/xkea/repos/coding/cpp/project/rfdrone/src/mpu6050.cpp
 
 CMakeFiles/drone.dir/src/mpu6050.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/drone.dir/src/mpu6050.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xkea/repos/coding/cpp/project/rf24drone/src/mpu6050.cpp > CMakeFiles/drone.dir/src/mpu6050.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xkea/repos/coding/cpp/project/rfdrone/src/mpu6050.cpp > CMakeFiles/drone.dir/src/mpu6050.cpp.i
 
 CMakeFiles/drone.dir/src/mpu6050.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/drone.dir/src/mpu6050.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xkea/repos/coding/cpp/project/rf24drone/src/mpu6050.cpp -o CMakeFiles/drone.dir/src/mpu6050.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xkea/repos/coding/cpp/project/rfdrone/src/mpu6050.cpp -o CMakeFiles/drone.dir/src/mpu6050.cpp.s
 
 # Object files for target drone
 drone_OBJECTS = \
@@ -112,11 +112,11 @@ drone: CMakeFiles/drone.dir/src/drone.cpp.o
 drone: CMakeFiles/drone.dir/src/mpu6050.cpp.o
 drone: CMakeFiles/drone.dir/build.make
 drone: CMakeFiles/drone.dir/compiler_depend.ts
-drone: external/RF24/librf24.so.1.5.0
+drone: external/rf24/librf24.so.1.5.0
 drone: CMakeFiles/drone.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/xkea/repos/coding/cpp/project/rf24drone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable drone"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/xkea/repos/coding/cpp/project/rfdrone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable drone"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/drone.dir/link.txt --verbose=$(VERBOSE)
-	/usr/bin/cmake -E create_symlink /home/xkea/repos/coding/cpp/project/rf24drone/build/compile_commands.json /home/xkea/repos/coding/cpp/project/rf24drone/compile_commands.json
+	/usr/bin/cmake -E create_symlink /home/xkea/repos/coding/cpp/project/rfdrone/build/compile_commands.json /home/xkea/repos/coding/cpp/project/rfdrone/compile_commands.json
 
 # Rule to build all files generated by this target.
 CMakeFiles/drone.dir/build: drone
@@ -127,6 +127,6 @@ CMakeFiles/drone.dir/clean:
 .PHONY : CMakeFiles/drone.dir/clean
 
 CMakeFiles/drone.dir/depend:
-	cd /home/xkea/repos/coding/cpp/project/rf24drone/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xkea/repos/coding/cpp/project/rf24drone /home/xkea/repos/coding/cpp/project/rf24drone /home/xkea/repos/coding/cpp/project/rf24drone/build /home/xkea/repos/coding/cpp/project/rf24drone/build /home/xkea/repos/coding/cpp/project/rf24drone/build/CMakeFiles/drone.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/xkea/repos/coding/cpp/project/rfdrone/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xkea/repos/coding/cpp/project/rfdrone /home/xkea/repos/coding/cpp/project/rfdrone /home/xkea/repos/coding/cpp/project/rfdrone/build /home/xkea/repos/coding/cpp/project/rfdrone/build /home/xkea/repos/coding/cpp/project/rfdrone/build/CMakeFiles/drone.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/drone.dir/depend
 

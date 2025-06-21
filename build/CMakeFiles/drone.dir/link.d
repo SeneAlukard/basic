@@ -4,7 +4,7 @@ drone: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/crtbeginS.o \
   CMakeFiles/drone.dir/src/drone.cpp.o \
   CMakeFiles/drone.dir/src/mpu6050.cpp.o \
-  external/RF24/librf24.so.1.5.0 \
+  external/rf24/librf24.so.1.5.0 \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/libstdc++.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/libm.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/libm.so \
@@ -43,7 +43,7 @@ CMakeFiles/drone.dir/src/drone.cpp.o:
 
 CMakeFiles/drone.dir/src/mpu6050.cpp.o:
 
-external/RF24/librf24.so.1.5.0:
+external/rf24/librf24.so.1.5.0:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/libstdc++.so:
 

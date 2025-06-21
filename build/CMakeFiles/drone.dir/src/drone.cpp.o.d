@@ -1,9 +1,9 @@
 CMakeFiles/drone.dir/src/drone.cpp.o: \
- /home/xkea/repos/coding/cpp/project/rf24drone/src/drone.cpp \
+ /home/xkea/repos/coding/cpp/project/rfdrone/src/drone.cpp \
  /usr/include/stdc-predef.h \
- /home/xkea/repos/coding/cpp/project/rf24drone/external/RF24/RF24.h \
- /home/xkea/repos/coding/cpp/project/rf24drone/external/RF24/RF24_config.h \
- /home/xkea/repos/coding/cpp/project/rf24drone/external/RF24/utility/includes.h \
+ /home/xkea/repos/coding/cpp/project/rfdrone/external/rf24/RF24.h \
+ /home/xkea/repos/coding/cpp/project/rfdrone/external/rf24/RF24_config.h \
+ /home/xkea/repos/coding/cpp/project/rfdrone/external/rf24/utility/includes.h \
  /usr/include/c++/15.1.1/cstring /usr/include/c++/15.1.1/bits/version.h \
  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -17,7 +17,7 @@ CMakeFiles/drone.dir/src/drone.cpp.o: \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stddef.h \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/xkea/repos/coding/cpp/project/rf24drone/external/RF24/utility/SPIDEV/RF24_arch_config.h \
+ /home/xkea/repos/coding/cpp/project/rfdrone/external/rf24/utility/SPIDEV/RF24_arch_config.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/types.h \
  /usr/include/bits/typesizes.h /usr/include/bits/time64.h \
@@ -31,7 +31,7 @@ CMakeFiles/drone.dir/src/drone.cpp.o: \
  /usr/include/bits/types/cookie_io_functions_t.h \
  /usr/include/bits/stdio_lim.h /usr/include/bits/floatn.h \
  /usr/include/bits/floatn-common.h /usr/include/bits/stdio.h \
- /home/xkea/repos/coding/cpp/project/rf24drone/external/RF24/utility/SPIDEV/spi.h \
+ /home/xkea/repos/coding/cpp/project/rfdrone/external/rf24/utility/SPIDEV/spi.h \
  /usr/include/c++/15.1.1/stdexcept /usr/include/c++/15.1.1/exception \
  /usr/include/c++/15.1.1/bits/exception.h \
  /usr/include/c++/15.1.1/bits/exception_ptr.h \
@@ -122,7 +122,7 @@ CMakeFiles/drone.dir/src/drone.cpp.o: \
  /usr/include/c++/15.1.1/bits/uses_allocator.h \
  /usr/include/c++/15.1.1/bits/uses_allocator_args.h \
  /usr/include/c++/15.1.1/tuple /usr/include/c++/15.1.1/bits/ranges_util.h \
- /home/xkea/repos/coding/cpp/project/rf24drone/external/RF24/utility/SPIDEV/gpio.h \
+ /home/xkea/repos/coding/cpp/project/rfdrone/external/rf24/utility/SPIDEV/gpio.h \
  /usr/include/c++/15.1.1/cstdint /usr/include/c++/15.1.1/map \
  /usr/include/c++/15.1.1/bits/stl_tree.h \
  /usr/include/c++/15.1.1/ext/aligned_buffer.h \
@@ -138,8 +138,8 @@ CMakeFiles/drone.dir/src/drone.cpp.o: \
  /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
  /usr/include/asm/posix_types.h /usr/include/asm/posix_types_64.h \
  /usr/include/asm-generic/posix_types.h \
- /home/xkea/repos/coding/cpp/project/rf24drone/external/RF24/utility/SPIDEV/compatibility.h \
- /home/xkea/repos/coding/cpp/project/rf24drone/external/RF24/utility/SPIDEV/interrupt.h \
+ /home/xkea/repos/coding/cpp/project/rfdrone/external/rf24/utility/SPIDEV/compatibility.h \
+ /home/xkea/repos/coding/cpp/project/rfdrone/external/rf24/utility/SPIDEV/interrupt.h \
  /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
  /usr/include/linux/sched/types.h \
  /usr/include/bits/types/struct_sched_param.h /usr/include/bits/cpu-set.h \
@@ -148,8 +148,8 @@ CMakeFiles/drone.dir/src/drone.cpp.o: \
  /usr/include/bits/types/struct_itimerspec.h /usr/include/bits/setjmp.h \
  /usr/include/bits/types/struct___jmp_buf_tag.h \
  /usr/include/bits/pthread_stack_min-dynamic.h \
- /home/xkea/repos/coding/cpp/project/rf24drone/external/RF24/nRF24L01.h \
- /home/xkea/repos/coding/cpp/project/rf24drone/include/mpu6050.hpp \
+ /home/xkea/repos/coding/cpp/project/rfdrone/external/rf24/nRF24L01.h \
+ /home/xkea/repos/coding/cpp/project/rfdrone/include/mpu6050.hpp \
  /usr/include/c++/15.1.1/chrono /usr/include/c++/15.1.1/bits/chrono.h \
  /usr/include/c++/15.1.1/ratio /usr/include/c++/15.1.1/limits \
  /usr/include/c++/15.1.1/ctime \

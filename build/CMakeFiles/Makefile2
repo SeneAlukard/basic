@@ -54,90 +54,93 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xkea/repos/coding/cpp/project/rf24drone
+CMAKE_SOURCE_DIR = /home/xkea/repos/coding/cpp/project/rfdrone
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xkea/repos/coding/cpp/project/rf24drone/build
+CMAKE_BINARY_DIR = /home/xkea/repos/coding/cpp/project/rfdrone/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
 all: CMakeFiles/drone.dir/all
-all: external/RF24/all
+all: CMakeFiles/gbs.dir/all
+all: external/rf24/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/drone.dir/codegen
-codegen: external/RF24/codegen
+codegen: CMakeFiles/gbs.dir/codegen
+codegen: external/rf24/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
-preinstall: external/RF24/preinstall
+preinstall: external/rf24/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/drone.dir/clean
+clean: CMakeFiles/gbs.dir/clean
 clean: CMakeFiles/run.dir/clean
-clean: external/RF24/clean
+clean: external/rf24/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory external/RF24
+# Directory level rules for directory external/rf24
 
 # Recursive "all" directory target.
-external/RF24/all: external/RF24/CMakeFiles/rf24.dir/all
-external/RF24/all: external/RF24/utility/all
-.PHONY : external/RF24/all
+external/rf24/all: external/rf24/CMakeFiles/rf24.dir/all
+external/rf24/all: external/rf24/utility/all
+.PHONY : external/rf24/all
 
 # Recursive "codegen" directory target.
-external/RF24/codegen: external/RF24/CMakeFiles/rf24.dir/codegen
-external/RF24/codegen: external/RF24/utility/codegen
-.PHONY : external/RF24/codegen
+external/rf24/codegen: external/rf24/CMakeFiles/rf24.dir/codegen
+external/rf24/codegen: external/rf24/utility/codegen
+.PHONY : external/rf24/codegen
 
 # Recursive "preinstall" directory target.
-external/RF24/preinstall: external/RF24/utility/preinstall
-.PHONY : external/RF24/preinstall
+external/rf24/preinstall: external/rf24/utility/preinstall
+.PHONY : external/rf24/preinstall
 
 # Recursive "clean" directory target.
-external/RF24/clean: external/RF24/CMakeFiles/rf24.dir/clean
-external/RF24/clean: external/RF24/utility/clean
-.PHONY : external/RF24/clean
+external/rf24/clean: external/rf24/CMakeFiles/rf24.dir/clean
+external/rf24/clean: external/rf24/utility/clean
+.PHONY : external/rf24/clean
 
 #=============================================================================
-# Directory level rules for directory external/RF24/utility
+# Directory level rules for directory external/rf24/utility
 
 # Recursive "all" directory target.
-external/RF24/utility/all:
-.PHONY : external/RF24/utility/all
+external/rf24/utility/all:
+.PHONY : external/rf24/utility/all
 
 # Recursive "codegen" directory target.
-external/RF24/utility/codegen:
-.PHONY : external/RF24/utility/codegen
+external/rf24/utility/codegen:
+.PHONY : external/rf24/utility/codegen
 
 # Recursive "preinstall" directory target.
-external/RF24/utility/preinstall:
-.PHONY : external/RF24/utility/preinstall
+external/rf24/utility/preinstall:
+.PHONY : external/rf24/utility/preinstall
 
 # Recursive "clean" directory target.
-external/RF24/utility/clean:
-.PHONY : external/RF24/utility/clean
+external/rf24/utility/clean:
+.PHONY : external/rf24/utility/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/drone.dir
 
 # All Build rule for target.
-CMakeFiles/drone.dir/all: external/RF24/CMakeFiles/rf24.dir/all
+CMakeFiles/drone.dir/all: external/rf24/CMakeFiles/rf24.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone.dir/build.make CMakeFiles/drone.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone.dir/build.make CMakeFiles/drone.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xkea/repos/coding/cpp/project/rf24drone/build/CMakeFiles --progress-num=1,2,3 "Built target drone"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xkea/repos/coding/cpp/project/rfdrone/build/CMakeFiles --progress-num=1,2,3 "Built target drone"
 .PHONY : CMakeFiles/drone.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/drone.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xkea/repos/coding/cpp/project/rf24drone/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xkea/repos/coding/cpp/project/rfdrone/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/drone.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xkea/repos/coding/cpp/project/rf24drone/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xkea/repos/coding/cpp/project/rfdrone/build/CMakeFiles 0
 .PHONY : CMakeFiles/drone.dir/rule
 
 # Convenience name for target.
@@ -147,7 +150,7 @@ drone: CMakeFiles/drone.dir/rule
 # codegen rule for target.
 CMakeFiles/drone.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone.dir/build.make CMakeFiles/drone.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xkea/repos/coding/cpp/project/rf24drone/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target drone"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xkea/repos/coding/cpp/project/rfdrone/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target drone"
 .PHONY : CMakeFiles/drone.dir/codegen
 
 # clean rule for target.
@@ -156,20 +159,52 @@ CMakeFiles/drone.dir/clean:
 .PHONY : CMakeFiles/drone.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/gbs.dir
+
+# All Build rule for target.
+CMakeFiles/gbs.dir/all: external/rf24/CMakeFiles/rf24.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gbs.dir/build.make CMakeFiles/gbs.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gbs.dir/build.make CMakeFiles/gbs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xkea/repos/coding/cpp/project/rfdrone/build/CMakeFiles --progress-num=4,5 "Built target gbs"
+.PHONY : CMakeFiles/gbs.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/gbs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xkea/repos/coding/cpp/project/rfdrone/build/CMakeFiles 8
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/gbs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xkea/repos/coding/cpp/project/rfdrone/build/CMakeFiles 0
+.PHONY : CMakeFiles/gbs.dir/rule
+
+# Convenience name for target.
+gbs: CMakeFiles/gbs.dir/rule
+.PHONY : gbs
+
+# codegen rule for target.
+CMakeFiles/gbs.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gbs.dir/build.make CMakeFiles/gbs.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xkea/repos/coding/cpp/project/rfdrone/build/CMakeFiles --progress-num=4,5 "Finished codegen for target gbs"
+.PHONY : CMakeFiles/gbs.dir/codegen
+
+# clean rule for target.
+CMakeFiles/gbs.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gbs.dir/build.make CMakeFiles/gbs.dir/clean
+.PHONY : CMakeFiles/gbs.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/run.dir
 
 # All Build rule for target.
 CMakeFiles/run.dir/all: CMakeFiles/drone.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xkea/repos/coding/cpp/project/rf24drone/build/CMakeFiles --progress-num= "Built target run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xkea/repos/coding/cpp/project/rfdrone/build/CMakeFiles --progress-num= "Built target run"
 .PHONY : CMakeFiles/run.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xkea/repos/coding/cpp/project/rf24drone/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xkea/repos/coding/cpp/project/rfdrone/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/run.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xkea/repos/coding/cpp/project/rf24drone/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xkea/repos/coding/cpp/project/rfdrone/build/CMakeFiles 0
 .PHONY : CMakeFiles/run.dir/rule
 
 # Convenience name for target.
@@ -179,7 +214,7 @@ run: CMakeFiles/run.dir/rule
 # codegen rule for target.
 CMakeFiles/run.dir/codegen: CMakeFiles/drone.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xkea/repos/coding/cpp/project/rf24drone/build/CMakeFiles --progress-num= "Finished codegen for target run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xkea/repos/coding/cpp/project/rfdrone/build/CMakeFiles --progress-num= "Finished codegen for target run"
 .PHONY : CMakeFiles/run.dir/codegen
 
 # clean rule for target.
@@ -188,36 +223,36 @@ CMakeFiles/run.dir/clean:
 .PHONY : CMakeFiles/run.dir/clean
 
 #=============================================================================
-# Target rules for target external/RF24/CMakeFiles/rf24.dir
+# Target rules for target external/rf24/CMakeFiles/rf24.dir
 
 # All Build rule for target.
-external/RF24/CMakeFiles/rf24.dir/all:
-	$(MAKE) $(MAKESILENT) -f external/RF24/CMakeFiles/rf24.dir/build.make external/RF24/CMakeFiles/rf24.dir/depend
-	$(MAKE) $(MAKESILENT) -f external/RF24/CMakeFiles/rf24.dir/build.make external/RF24/CMakeFiles/rf24.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xkea/repos/coding/cpp/project/rf24drone/build/CMakeFiles --progress-num=4,5,6,7,8,9 "Built target rf24"
-.PHONY : external/RF24/CMakeFiles/rf24.dir/all
+external/rf24/CMakeFiles/rf24.dir/all:
+	$(MAKE) $(MAKESILENT) -f external/rf24/CMakeFiles/rf24.dir/build.make external/rf24/CMakeFiles/rf24.dir/depend
+	$(MAKE) $(MAKESILENT) -f external/rf24/CMakeFiles/rf24.dir/build.make external/rf24/CMakeFiles/rf24.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xkea/repos/coding/cpp/project/rfdrone/build/CMakeFiles --progress-num=6,7,8,9,10,11 "Built target rf24"
+.PHONY : external/rf24/CMakeFiles/rf24.dir/all
 
 # Build rule for subdir invocation for target.
-external/RF24/CMakeFiles/rf24.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xkea/repos/coding/cpp/project/rf24drone/build/CMakeFiles 6
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/RF24/CMakeFiles/rf24.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xkea/repos/coding/cpp/project/rf24drone/build/CMakeFiles 0
-.PHONY : external/RF24/CMakeFiles/rf24.dir/rule
+external/rf24/CMakeFiles/rf24.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xkea/repos/coding/cpp/project/rfdrone/build/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/rf24/CMakeFiles/rf24.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xkea/repos/coding/cpp/project/rfdrone/build/CMakeFiles 0
+.PHONY : external/rf24/CMakeFiles/rf24.dir/rule
 
 # Convenience name for target.
-rf24: external/RF24/CMakeFiles/rf24.dir/rule
+rf24: external/rf24/CMakeFiles/rf24.dir/rule
 .PHONY : rf24
 
 # codegen rule for target.
-external/RF24/CMakeFiles/rf24.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f external/RF24/CMakeFiles/rf24.dir/build.make external/RF24/CMakeFiles/rf24.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xkea/repos/coding/cpp/project/rf24drone/build/CMakeFiles --progress-num=4,5,6,7,8,9 "Finished codegen for target rf24"
-.PHONY : external/RF24/CMakeFiles/rf24.dir/codegen
+external/rf24/CMakeFiles/rf24.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f external/rf24/CMakeFiles/rf24.dir/build.make external/rf24/CMakeFiles/rf24.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xkea/repos/coding/cpp/project/rfdrone/build/CMakeFiles --progress-num=6,7,8,9,10,11 "Finished codegen for target rf24"
+.PHONY : external/rf24/CMakeFiles/rf24.dir/codegen
 
 # clean rule for target.
-external/RF24/CMakeFiles/rf24.dir/clean:
-	$(MAKE) $(MAKESILENT) -f external/RF24/CMakeFiles/rf24.dir/build.make external/RF24/CMakeFiles/rf24.dir/clean
-.PHONY : external/RF24/CMakeFiles/rf24.dir/clean
+external/rf24/CMakeFiles/rf24.dir/clean:
+	$(MAKE) $(MAKESILENT) -f external/rf24/CMakeFiles/rf24.dir/build.make external/rf24/CMakeFiles/rf24.dir/clean
+.PHONY : external/rf24/CMakeFiles/rf24.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xkea/repos/coding/cpp/project/rf24drone
+CMAKE_SOURCE_DIR = /home/xkea/repos/coding/cpp/project/rfdrone
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xkea/repos/coding/cpp/project/rf24drone/build
+CMAKE_BINARY_DIR = /home/xkea/repos/coding/cpp/project/rfdrone/build
 
 # Utility rule file for run.
 
@@ -67,7 +67,7 @@ include CMakeFiles/run.dir/compiler_depend.make
 include CMakeFiles/run.dir/progress.make
 
 CMakeFiles/run: drone
-	cd /home/xkea/repos/coding/cpp/project/rf24drone && /home/xkea/repos/coding/cpp/project/rf24drone/build/drone
+	cd /home/xkea/repos/coding/cpp/project/rfdrone && /home/xkea/repos/coding/cpp/project/rfdrone/build/drone
 
 CMakeFiles/run.dir/codegen:
 .PHONY : CMakeFiles/run.dir/codegen
@@ -85,6 +85,6 @@ CMakeFiles/run.dir/clean:
 .PHONY : CMakeFiles/run.dir/clean
 
 CMakeFiles/run.dir/depend:
-	cd /home/xkea/repos/coding/cpp/project/rf24drone/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xkea/repos/coding/cpp/project/rf24drone /home/xkea/repos/coding/cpp/project/rf24drone /home/xkea/repos/coding/cpp/project/rf24drone/build /home/xkea/repos/coding/cpp/project/rf24drone/build /home/xkea/repos/coding/cpp/project/rf24drone/build/CMakeFiles/run.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/xkea/repos/coding/cpp/project/rfdrone/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xkea/repos/coding/cpp/project/rfdrone /home/xkea/repos/coding/cpp/project/rfdrone /home/xkea/repos/coding/cpp/project/rfdrone/build /home/xkea/repos/coding/cpp/project/rfdrone/build /home/xkea/repos/coding/cpp/project/rfdrone/build/CMakeFiles/run.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/run.dir/depend
 

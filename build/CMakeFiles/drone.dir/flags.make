@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/xkea/repos/coding/cpp/project/rf24drone/include -I/home/xkea/repos/coding/cpp/project/rf24drone/external/RF24 -I/home/xkea/repos/coding/cpp/project/rf24drone/external/RF24/utility
+CXX_INCLUDES = -I/home/xkea/repos/coding/cpp/project/rfdrone/include -I/home/xkea/repos/coding/cpp/project/rfdrone/external/rf24 -I/home/xkea/repos/coding/cpp/project/rfdrone/external/rf24/utility
 
 CXX_FLAGS = -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wuseless-cast
 

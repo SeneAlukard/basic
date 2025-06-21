@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/packets_test.dir/link.d CMakeFiles/packets_test.dir/packets_test.cpp.o -o /home/xkea/repos/coding/cpp/project/rf24drone/test/packets_test  -Wl,-rpath,/home/xkea/repos/coding/cpp/project/rf24drone/build/external/RF24 libdrone_core.a external/RF24/librf24.so.1.5.0

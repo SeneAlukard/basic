@@ -1,7 +1,7 @@
 CMakeFiles/drone.dir/src/mpu6050.cpp.o: \
- /home/xkea/repos/coding/cpp/project/rf24drone/src/mpu6050.cpp \
+ /home/xkea/repos/coding/cpp/project/rfdrone/src/mpu6050.cpp \
  /usr/include/stdc-predef.h \
- /home/xkea/repos/coding/cpp/project/rf24drone/include/mpu6050.hpp \
+ /home/xkea/repos/coding/cpp/project/rfdrone/include/mpu6050.hpp \
  /usr/include/c++/15.1.1/cstdint \
  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/os_defines.h \

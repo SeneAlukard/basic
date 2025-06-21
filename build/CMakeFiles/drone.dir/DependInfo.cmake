@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/xkea/repos/coding/cpp/project/rf24drone/src/drone.cpp" "CMakeFiles/drone.dir/src/drone.cpp.o" "gcc" "CMakeFiles/drone.dir/src/drone.cpp.o.d"
-  "/home/xkea/repos/coding/cpp/project/rf24drone/src/mpu6050.cpp" "CMakeFiles/drone.dir/src/mpu6050.cpp.o" "gcc" "CMakeFiles/drone.dir/src/mpu6050.cpp.o.d"
+  "/home/xkea/repos/coding/cpp/project/rfdrone/src/drone.cpp" "CMakeFiles/drone.dir/src/drone.cpp.o" "gcc" "CMakeFiles/drone.dir/src/drone.cpp.o.d"
+  "/home/xkea/repos/coding/cpp/project/rfdrone/src/mpu6050.cpp" "CMakeFiles/drone.dir/src/mpu6050.cpp.o" "gcc" "CMakeFiles/drone.dir/src/mpu6050.cpp.o.d"
   "" "drone" "gcc" "CMakeFiles/drone.dir/link.d"
   )
 

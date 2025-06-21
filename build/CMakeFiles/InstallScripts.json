@@ -1,9 +1,9 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/xkea/repos/coding/cpp/project/rf24drone/build/cmake_install.cmake",
-		"/home/xkea/repos/coding/cpp/project/rf24drone/build/external/RF24/cmake_install.cmake",
-		"/home/xkea/repos/coding/cpp/project/rf24drone/build/external/RF24/utility/cmake_install.cmake"
+		"/home/xkea/repos/coding/cpp/project/rfdrone/build/cmake_install.cmake",
+		"/home/xkea/repos/coding/cpp/project/rfdrone/build/external/rf24/cmake_install.cmake",
+		"/home/xkea/repos/coding/cpp/project/rfdrone/build/external/rf24/utility/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
