@@ -1,6 +1,6 @@
 // src/server.cpp
 
-#include <RF24/RF24.h>
+#include <RF24.h>
 #include <chrono>
 #include <cstdint>
 #include <iostream>
