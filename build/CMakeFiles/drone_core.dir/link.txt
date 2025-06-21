@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdrone_core.a CMakeFiles/drone_core.dir/src/drone.cpp.o CMakeFiles/drone_core.dir/src/radio.cpp.o CMakeFiles/drone_core.dir/src/mpu6050.cpp.o
+/usr/bin/ranlib libdrone_core.a

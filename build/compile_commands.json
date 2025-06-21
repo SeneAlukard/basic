@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/home/xkea/repos/coding/cpp/project/rf24drone/build",
+  "command": "/usr/bin/c++  -I/home/xkea/repos/coding/cpp/project/rf24drone/include -I/home/xkea/repos/coding/cpp/project/rf24drone/external/RF24 -I/home/xkea/repos/coding/cpp/project/rf24drone/external/RF24/utility -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wuseless-cast -o CMakeFiles/drone.dir/src/drone.cpp.o -c /home/xkea/repos/coding/cpp/project/rf24drone/src/drone.cpp",
+  "file": "/home/xkea/repos/coding/cpp/project/rf24drone/src/drone.cpp",
+  "output": "CMakeFiles/drone.dir/src/drone.cpp.o"
+},
+{
+  "directory": "/home/xkea/repos/coding/cpp/project/rf24drone/build",
+  "command": "/usr/bin/c++  -I/home/xkea/repos/coding/cpp/project/rf24drone/include -I/home/xkea/repos/coding/cpp/project/rf24drone/external/RF24 -I/home/xkea/repos/coding/cpp/project/rf24drone/external/RF24/utility -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wuseless-cast -o CMakeFiles/drone.dir/src/mpu6050.cpp.o -c /home/xkea/repos/coding/cpp/project/rf24drone/src/mpu6050.cpp",
+  "file": "/home/xkea/repos/coding/cpp/project/rf24drone/src/mpu6050.cpp",
+  "output": "CMakeFiles/drone.dir/src/mpu6050.cpp.o"
+},
+{
+  "directory": "/home/xkea/repos/coding/cpp/project/rf24drone/build/external/RF24",
+  "command": "/usr/bin/c++ -Drf24_EXPORTS -I/home/xkea/repos/coding/cpp/project/rf24drone/external/RF24/utility -O3 -DNDEBUG -std=gnu++20 -fPIC -Ofast -Wall -pthread -o CMakeFiles/rf24.dir/RF24.cpp.o -c /home/xkea/repos/coding/cpp/project/rf24drone/external/RF24/RF24.cpp",
+  "file": "/home/xkea/repos/coding/cpp/project/rf24drone/external/RF24/RF24.cpp",
+  "output": "external/RF24/CMakeFiles/rf24.dir/RF24.cpp.o"
+},
+{
+  "directory": "/home/xkea/repos/coding/cpp/project/rf24drone/build/external/RF24",
+  "command": "/usr/bin/c++ -Drf24_EXPORTS -I/home/xkea/repos/coding/cpp/project/rf24drone/external/RF24/utility -O3 -DNDEBUG -std=gnu++20 -fPIC -Ofast -Wall -pthread -o CMakeFiles/rf24.dir/utility/SPIDEV/gpio.cpp.o -c /home/xkea/repos/coding/cpp/project/rf24drone/external/RF24/utility/SPIDEV/gpio.cpp",
+  "file": "/home/xkea/repos/coding/cpp/project/rf24drone/external/RF24/utility/SPIDEV/gpio.cpp",
+  "output": "external/RF24/CMakeFiles/rf24.dir/utility/SPIDEV/gpio.cpp.o"
+},
+{
+  "directory": "/home/xkea/repos/coding/cpp/project/rf24drone/build/external/RF24",
+  "command": "/usr/bin/c++ -Drf24_EXPORTS -I/home/xkea/repos/coding/cpp/project/rf24drone/external/RF24/utility -O3 -DNDEBUG -std=gnu++20 -fPIC -Ofast -Wall -pthread -o CMakeFiles/rf24.dir/utility/SPIDEV/spi.cpp.o -c /home/xkea/repos/coding/cpp/project/rf24drone/external/RF24/utility/SPIDEV/spi.cpp",
+  "file": "/home/xkea/repos/coding/cpp/project/rf24drone/external/RF24/utility/SPIDEV/spi.cpp",
+  "output": "external/RF24/CMakeFiles/rf24.dir/utility/SPIDEV/spi.cpp.o"
+},
+{
+  "directory": "/home/xkea/repos/coding/cpp/project/rf24drone/build/external/RF24",
+  "command": "/usr/bin/c++ -Drf24_EXPORTS -I/home/xkea/repos/coding/cpp/project/rf24drone/external/RF24/utility -O3 -DNDEBUG -std=gnu++20 -fPIC -Ofast -Wall -pthread -o CMakeFiles/rf24.dir/utility/SPIDEV/compatibility.cpp.o -c /home/xkea/repos/coding/cpp/project/rf24drone/external/RF24/utility/SPIDEV/compatibility.cpp",
+  "file": "/home/xkea/repos/coding/cpp/project/rf24drone/external/RF24/utility/SPIDEV/compatibility.cpp",
+  "output": "external/RF24/CMakeFiles/rf24.dir/utility/SPIDEV/compatibility.cpp.o"
+},
+{
+  "directory": "/home/xkea/repos/coding/cpp/project/rf24drone/build/external/RF24",
+  "command": "/usr/bin/c++ -Drf24_EXPORTS -I/home/xkea/repos/coding/cpp/project/rf24drone/external/RF24/utility -O3 -DNDEBUG -std=gnu++20 -fPIC -Ofast -Wall -pthread -o CMakeFiles/rf24.dir/utility/SPIDEV/interrupt.cpp.o -c /home/xkea/repos/coding/cpp/project/rf24drone/external/RF24/utility/SPIDEV/interrupt.cpp",
+  "file": "/home/xkea/repos/coding/cpp/project/rf24drone/external/RF24/utility/SPIDEV/interrupt.cpp",
+  "output": "external/RF24/CMakeFiles/rf24.dir/utility/SPIDEV/interrupt.cpp.o"
+}
+]

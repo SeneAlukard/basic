@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/drone.dir/link.d CMakeFiles/drone.dir/src/drone.cpp.o CMakeFiles/drone.dir/src/mpu6050.cpp.o -o drone  -Wl,-rpath,/home/xkea/repos/coding/cpp/project/rf24drone/build/external/RF24 external/RF24/librf24.so.1.5.0

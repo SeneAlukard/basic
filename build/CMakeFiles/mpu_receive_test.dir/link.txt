@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/mpu_receive_test.dir/link.d CMakeFiles/mpu_receive_test.dir/mpu_receive_test.cpp.o -o /home/xkea/repos/coding/cpp/project/rf24drone/test/mpu_receive_test  -Wl,-rpath,/home/xkea/repos/coding/cpp/project/rf24drone/build/external/RF24 libdrone_core.a external/RF24/librf24.so.1.5.0
