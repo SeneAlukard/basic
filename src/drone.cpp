@@ -9,9 +9,9 @@
 
 // GPIO pin tanımları
 constexpr uint8_t TX_CE_PIN = 27;
-constexpr uint8_t TX_CSN_PIN = 10;
+constexpr uint8_t TX_CSN_PIN = 00;
 constexpr uint8_t RX_CE_PIN = 22;
-constexpr uint8_t RX_CSN_PIN = 0;
+constexpr uint8_t RX_CSN_PIN = 10;
 
 // 40-bit RF adresleri
 static const uint64_t ADDR_DRONE_TO_GBS = 0xF0F0F0F0D2ULL;

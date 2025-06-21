@@ -1,0 +1,4 @@
+[submodule "external/rf24"]
+	path = external/rf24
+	url = https://github.com/TMRh20/RF24.git
+	branch = master
